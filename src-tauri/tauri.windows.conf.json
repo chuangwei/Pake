@@ -12,6 +12,9 @@
       "shortDescription": "",
       "targets": ["msi"],
       "windows": {
+          "webviewInstallMode": {
+          "type": "embedBootstrapper"
+        },
         "certificateThumbprint": null,
         "digestAlgorithm": "sha256",
         "timestampUrl": "",
